@@ -25,6 +25,14 @@
     top: constant(safe-area-inset-top); /* iOS 11.0 */
     top: env(safe-area-inset-top); /* iOS 11.2 */
     left:20px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
 }
 
 body {
@@ -35,4 +43,20 @@ body {
 .links a {
     margin-top:5px;
     width:100%;
+}
+
+.icon {
+    width:16px;
+    height:16px;
+}
+
+.mainmenu .list-group-item {
+    background-color:#333;
+}
+.mainmenu .list-group-item a {
+    color:#ddd;
+}
+.mainmenu .panel-heading {
+    background-color:#555;
+    color:#ddd;
 }
